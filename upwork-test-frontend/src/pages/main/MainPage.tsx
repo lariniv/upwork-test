@@ -28,7 +28,7 @@ function MainPage() {
 
   useEffect(() => {
     dispatch(getHistory());
-  }, []);
+  }, [query]);
 
   return (
     <div className="w-full h-full grid grid-cols-[1fr_1.5fr_1fr] p-6 gap-8">
